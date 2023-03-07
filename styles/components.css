@@ -59,6 +59,10 @@
     flex-direction: column;
 }
 
+.footer-item {
+    width: 25vw;
+}
+
 
 .footer_end {
     background-color: rgb(179, 182, 186) !important;
