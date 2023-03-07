@@ -1,0 +1,89 @@
+/* ****************header**************** */
+
+.top_heading_container {
+    border-bottom: 0px solid black;
+    padding: 0px 3px;
+    background-color: rgb(232, 225, 225);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_heading_option {
+    padding-inline: 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.top_heading_option_greet {
+    font-size: 22px;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: underline;
+    color: #e68f1f;
+}
+
+.top_heading_option:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.main_heading_container {
+    background-color: var(--appColor);
+    padding: 3px 20px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    font-size: 1.2vw;
+
+}
+
+.main_header_options li:hover {
+    font-weight: 800;
+    transition: font-weight .9s ease-in-out;
+    text-decoration: underline;
+    transition: text-decoration 1.8s;
+
+}
+
+
+
+/* *********footer************ */
+
+.footer_container {
+    height: 30vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.footer_end {
+    background-color: rgb(179, 182, 186) !important;
+}
+
+
+
+/* ********************slider ******************* */
+
+.mySwiper {
+    padding: 2px 0 !important;
+    height:600px;
+    /* background-color: aquamarine; */
+}
+
+.swiper-pagination-bullet{
+    height: 18px !important;
+    width: 18px !important;
+    background-color: var(--appSecondaryColor)!important;
+   opacity: 0.6 !important;
+}
+.swiper-pagination-bullet-active{
+    background-color: var(--appColor)!important;
+    opacity: 1 !important;
+    scale: 1.4;
+}
+
+/* ------------screen ------------ */

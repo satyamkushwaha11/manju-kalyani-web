@@ -1,0 +1,89 @@
+@media only screen and (max-width: 850px) {
+    .app-spacing {
+        width: calc(100vw - 10px) !important;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 650px) {
+    .mySwiper {
+        padding: 2px 0 !important;
+        height: 400px;
+        /* background-color: aquamarine; */
+    }
+
+    .swiper-pagination-bullet {
+        height: 14px !important;
+        width: 14px !important;
+
+    }
+
+    .main_header_options {
+        font-size: 12px;
+    }
+
+    .main_header_options li {
+        padding: 0 7px !important;
+
+    }
+
+    .main-heading-logo>img {
+        width: 70px;
+    }
+}
+
+
+@media only screen and (max-width: 560px) {
+    .mySwiper {
+        padding: 2px 0 !important;
+        height: 350px;
+        /* background-color: aquamarine; */
+    }
+
+    .swiper-pagination-bullet {
+        height: 14px !important;
+        width: 14px !important;
+
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 650px) {
+    .mySwiper {
+        padding: 2px 0 !important;
+        height: 400px;
+        /* background-color: aquamarine; */
+    }
+
+    .swiper-pagination-bullet {
+        height: 14px !important;
+        width: 14px !important;
+
+    }
+
+
+}
+
+
+@media only screen and (max-width: 450px) {
+
+
+    .mySwiper {
+        height: 250px;
+    }
+
+    .swiper-pagination-bullet {
+        height: 12px !important;
+        width: 12px !important;
+
+    }
+
+
+
+
+}
