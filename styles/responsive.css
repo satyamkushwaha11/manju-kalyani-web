@@ -82,6 +82,15 @@
         width: 12px !important;
 
     }
+    .main_header_options {
+        font-size: 9px;
+    }
+
+    .main_header_options li {
+        padding: 0 5px !important;
+
+    }
+
 
 
 
